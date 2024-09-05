@@ -1,0 +1,15 @@
+import pandas as pd
+import sqlite3
+
+# Conectar a la base de datos (ajusta según tu configuración)
+conn = sqlite3.connect('mi_base_de_datos.db')
+
+# Ejecutar consultas para obtener los datos
+clientes_df = pd.read_sql_query("SELECT * FROM CLIENTES", conn)
+vuelos_df = pd.read_sql_query("SELECT * FROM VUELOS", conn)
+
+# Exportar a CSV
+clientes_df.to_csv('clientes.csv', index=False)
+vuelos_df.to_csv('vuelos.csv', index=False)
+
+conn.close()
