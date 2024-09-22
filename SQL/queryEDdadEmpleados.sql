@@ -1,0 +1,1 @@
+SELECT nombre,floor(datediff(now(),fechaNacimiento)/365) as años from empleado;

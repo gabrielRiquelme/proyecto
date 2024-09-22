@@ -1,0 +1,1 @@
+SELECT idCategoria, group_concat(idProducto) as producto from producto group by idCategoria;

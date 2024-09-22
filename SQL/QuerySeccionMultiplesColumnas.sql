@@ -1,0 +1,1 @@
+SELECT * from factura where idFactura IN (1,3,5,7)

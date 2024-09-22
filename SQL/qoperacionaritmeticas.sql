@@ -1,0 +1,1 @@
+select idProducto,(preciounitario * cantidad) + (preciounitario * cantidad * 0.13)as 'Precio con impuesto ' from detalle_factura;

@@ -1,0 +1,1 @@
+select * from cliente cross join factura;

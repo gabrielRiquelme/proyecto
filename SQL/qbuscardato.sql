@@ -1,0 +1,1 @@
+select * from producto where nombre like '%A&e%a%';
