@@ -1,0 +1,1 @@
+Select str_to_date('01/31/2023','%m/%d/%Y') AS fecha;

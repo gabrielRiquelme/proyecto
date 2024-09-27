@@ -1,0 +1,1 @@
+SELECT * FROM AUTOR WHERE apellido IS NULL OR apellido='';

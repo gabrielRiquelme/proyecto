@@ -1,0 +1,1 @@
+mysqldump -uroot -p libreria cliente > "C:\Users\sofia\OneDrive\Documentos\dumps\cliente_bkp"
